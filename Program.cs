@@ -41,9 +41,8 @@ public class Program
         Console.WriteLine("What's your dream job?");
         string dreamJob = Console.ReadLine();
 
-        // Age + 5
-        string numberAge = "5";
-        int age = int.Parse(numberAge);
+        // still have no idea how to get this to work
+        int numberAge = int.Parse(age + 5);
 
         Console.WriteLine("How many siblings do you have?");
         string numbSiblings = Console.ReadLine();
@@ -74,7 +73,7 @@ public class Program
 
         Console.WriteLine(name + "'s dream job is " + dreamJob);
 
-        Console.WriteLine(name + " will be " + age + numberAge + " in 5 years");
+        Console.WriteLine(name + " will be " + numberAge + " in 5 years");
 
         Console.WriteLine(name + " has " + numbSiblings + " siblings");
     }
