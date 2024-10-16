@@ -39,84 +39,84 @@ public class Program
     public static void AskName()
     {
         Console.WriteLine("What is your name?");
-        string name = Console.ReadLine();
+        name = Console.ReadLine();
     }
 
     public static void AskAge()
     {
         Console.WriteLine("How old are you?");
-        string age = Console.ReadLine();
+        age = Console.ReadLine();
     }
 
     public static void AskEyeColor()
     {
         Console.WriteLine("What is your eye color?");
-        string eyeColor = Console.ReadLine();
+        eyeColor = Console.ReadLine();
     }
 
     public static void AskHairColor()
     {
         Console.WriteLine("What's your hair color?");
-        string hairColor = Console.ReadLine();
+        hairColor = Console.ReadLine();
     }
 
     public static void AskShoeSize()
     {
         Console.WriteLine("What's your shoe size");
-        string shoeSize = Console.ReadLine();
+        shoeSize = Console.ReadLine();
     }
 
     public static void AskFavoriteColor()
     {
         Console.WriteLine("What's your favorite color?");
-        string favColor = Console.ReadLine();
+        favColor = Console.ReadLine();
     }
 
     public static void AskFavoriteTvShow()
     {
         Console.WriteLine("What is your favorite television show or movie?");
-        string favShow = Console.ReadLine();
+        favShow = Console.ReadLine();
     }
 
     public static void AskFavoriteTeacher()
     {
         Console.WriteLine("Who's your favorite teacher?");
-        string favTeach = Console.ReadLine();
+        favTeach = Console.ReadLine();
     }
 
     public static void AskFavoriteClass()
     {
         Console.WriteLine("what's your favorite class?");
-        string favClass = Console.ReadLine();
+        favClass = Console.ReadLine();
     }
 
     public static void AskFavoriteHoliday()
     {
         Console.WriteLine("What's your favorite holiday?");
-        string favHoliday = Console.ReadLine();
+        favHoliday = Console.ReadLine();
     }
 
     public static void AskFavoriteSeason()
     {
         Console.WriteLine("What's your favorite season?");
-        string favSeason = Console.ReadLine();
+        favSeason = Console.ReadLine();
     }
 
     public static void AskDreamJob()
     {
         Console.WriteLine("What's your dream job?");
-        string dreamJob = Console.ReadLine();
+        dreamJob = Console.ReadLine();
     }
 
     public static void CalculateAgeIn5Years()
     {
-        int numberAge = int.Parse(age + 5);
+        numberAge = int.Parse(age + 5);
     }
 
     public static void AskNumberOfSiblings()
     {
         Console.WriteLine("How many siblings do you have?");
-        string numbSiblings = Console.ReadLine();
+        numbSiblings = Console.ReadLine();
     }
 
     public static void DisplaySummaryMessage()
